@@ -12,6 +12,9 @@ public class Medicament {
         this.quantity = quantity;
         this.expirydate = expirydate;
     }
+    public Medicament() {
+
+    }
 
     public String getName() {
         return name;
